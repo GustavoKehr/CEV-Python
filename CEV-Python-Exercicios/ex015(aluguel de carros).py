@@ -11,4 +11,4 @@ totald = qtd * diaria
 totalkm = qtkm * kmr
 total = totald + totalkm
 
-print('O valor total a ser pago pelos {:.2f}Km Rodados e pelos {:.0f} dias de veiculo alugado é de: R${:.2f}'.format(qtkm, qtd, total))
+print('O valor total a ser pago pelos {:.2f}Km Rodados e pelos {:.0f} dias de veiculo alugado é de: R${:.2f}' .format(qtkm, qtd, total))
