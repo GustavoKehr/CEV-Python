@@ -16,7 +16,8 @@ n = random.randint(0, 5)
 num = int(input('Digite o número escolhido: '))
 print('='*35)
 if num == n:
-    print('PARÁBENS!! Vc acertou o número em que estava pensando o número era: {}!!\npara tentar novamente reinicie o programa' .format(n))
+    print('PARÁBENS!! Vc acertou o número em que estava pensando o número era: {}!!\npara tentar novamente reinicie o '
+          'programa' .format(n))
 else:
     if num >= 6:
         print('Valor inválido, o número é somente entre 0 e 5\npara tentar novamente reinicie o programa')
